@@ -1,0 +1,19 @@
+{
+  "name": "wmwi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --open --no-source-maps",
+    "build": "parcel build dist/index.html --public-url ./ --no-source-maps"
+  },
+  "author": "Sergiy Stebelskiy",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}
